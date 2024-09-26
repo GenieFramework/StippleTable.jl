@@ -5,7 +5,7 @@
   "editable": false,
   "description": "Pending description\n\n\n\n\n\n\n",
   "tagName": "ST-TABLE",
-  "content": "<st-table gb_b__data_table=\"undefined\" gb_c__dense=\"true\" gb_c__server_side_event=\"request\" _gb_b__loading=\"true\" ></st-table>",
+  "content": "<st-table gb_b__data_table=\"undefined\" gb_c__dense=\"true\" gb_c__server_side_event=\"request\" gb_c__loading=\"true\" ></st-table>",
   "droppable": false,
   "proRequired": true,
   "properties": [
