@@ -1,6 +1,6 @@
 name = "StippleTable"
 uuid = "5bb4b094-0818-496d-ae94-fd777e10e8ba"
-version = "1.0.0"
+version = "1.0.1"
 
 [deps]
 Stipple = "4acbeb90-81a0-11ea-1966-bdaff8155998"
