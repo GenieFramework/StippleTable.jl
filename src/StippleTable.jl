@@ -46,8 +46,8 @@ end
 ui() = sttable(:dt1, :dt1_request)
 ```
 """
-function sttable(data::Symbol, event::Symbol;kwargs...)
-    st__table(;kw([:data_table => data, :server_side_event => event, kwargs...])...)
+function sttable(data::Symbol, event::Symbol, args...; kwargs...)
+    st__table(args...; kw([:data_table => data, :server_side_event => event, kwargs...])...)
 end
 
 function gb_component_routes()
@@ -88,7 +88,7 @@ function gb_component_routes()
         prefix=prefix,
         ext=""
     ),
-    named=:get_gb_component_stippletable_canvascss) do
+    named = :get_gb_component_stippletable_canvascss) do
         Genie.Renderer.WebRenderable(
             Genie.Assets.embedded(
                 Genie.Assets.asset_file(cwd=normpath(joinpath(@__DIR__, "..")),
@@ -107,7 +107,7 @@ function gb_component_routes()
         prefix=prefix,
         ext=""
     ),
-    named=:get_gb_component_stippletable_icons_sttablepng) do
+    named = :get_gb_component_stippletable_icons_sttablepng) do
         Genie.Renderer.WebRenderable(
             Genie.Assets.embedded(
                 Genie.Assets.asset_file(cwd=normpath(joinpath(@__DIR__, "..")),
