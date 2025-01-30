@@ -1,12 +1,12 @@
 name = "StippleTable"
 uuid = "5bb4b094-0818-496d-ae94-fd777e10e8ba"
-version = "1.0.3"
+version = "1.0.4"
 
 [deps]
 Stipple = "4acbeb90-81a0-11ea-1966-bdaff8155998"
 StippleUI = "a3c5d34a-b254-4859-a8fa-b86abb7e84a3"
 
 [compat]
-Stipple = "0.28, 0.31"
-StippleUI = "0.23.4, 0.25"
+Stipple = "0.28 - 0.31"
+StippleUI = "0.23.4, 0.24"
 julia = "1.6"
